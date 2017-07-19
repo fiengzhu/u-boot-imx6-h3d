@@ -1,0 +1,4 @@
+#!/bin/bash
+
+dd if=SPL of=/dev/sde bs=1K seek=1;sync;
+dd if=u-boot.img of=/dev/sde bs=1K seek=42; sync;
