@@ -194,6 +194,7 @@
 #define CONFIG_SYS_CONSOLE_IS_IN_ENV
 
 #define CONFIG_EXTRA_ENV_SETTINGS \
+        "ethaddr=d0:63:b4:00:4b:50\0" \
         "script=boot.scr\0" \
         "bootfile=auto\0" \
         "bootenv=uEnv.txt\0" \
